@@ -5,7 +5,7 @@ return {
 	branch = '0.1.x',
 	dependencies= { 'nvim-lua/plenary.nvim'},
 	keys = {
-	    {"<leader><leader>", function() require('telescope.builtin').find_files({hidden=true}) end},
+	    {"<leader><leader>", function() end},
 	    {"<leader><space>", function() require('telescope.builtin').buffers() end},	
 	    {"<leader>ff", function() require('telescope.builtin').find_files({hidden=true}) end},
 	    {"<leader>fb", function() require('telescope.builtin').current_buffer_fuzzy_find() end},

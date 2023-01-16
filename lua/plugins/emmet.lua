@@ -3,7 +3,7 @@ return {
 	'mattn/emmet-vim', 
 	lazy = true,
 	keys = {
-		{",", function ()
+		{"<leader><leader>", function ()
 			
 		end}
 

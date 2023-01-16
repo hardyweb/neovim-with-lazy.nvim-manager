@@ -2,7 +2,7 @@ return {
 		"tpope/vim-commentary",
 		lazy = true, 
 		keys = {
-			{"gc", function()
+			{"<leader><leader>", function()
 
 			end}
 
