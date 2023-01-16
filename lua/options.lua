@@ -2,7 +2,7 @@
 vim.o.inccommand = 'nosplit'
 
 --Set highlight on search
-vim.o.hlsearch = false
+vim.o.hlsearch = true
 
 --Make line numbers default
 vim.wo.number = true
@@ -33,4 +33,9 @@ vim.o.termguicolors = true
 vim.o.background = 'dark'
 vim.g.onedark_terminal_italics = 2
 
-vim.cmd [[colorscheme torte]]
+--vim.cmd [[colorscheme default]]
+--vim.cmd [[hi NormaFloat guibg=NONE ctermbg=LightGrey]]
+vim.cmd.colorscheme('torte')
+--vim.api.nvim_set_hl(0, "NormaFloat", {bg="none", ctermbg="none"})
+--vim.api.nvim_set_hl(0, "Normal", {bg="none"})
+
