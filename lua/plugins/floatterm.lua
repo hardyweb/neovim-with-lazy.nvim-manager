@@ -4,7 +4,7 @@ return {
 	lazy= true, 
 	keys ={ 
 	{"<leader><leader>", function() end},
-	{"ft","<cmd>FloatermToggle<cr>"},	
+	{"ft","<cmd>FloatermToggle<cr>", desc="Floaterm"},	
 	},
 	config= function ()
 
