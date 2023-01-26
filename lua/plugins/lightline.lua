@@ -15,5 +15,6 @@ component_function ={
 },
 }
 
+--powerline
 
 
