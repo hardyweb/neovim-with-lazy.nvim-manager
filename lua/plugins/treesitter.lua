@@ -19,7 +19,7 @@ return {
 				ensure_installed = { "bash", "c", "help", "html", "javascript", "css" },
 				highlight = {
 					enable = true,
-					disable = {"html","php"},
+				--	disable = {"html","php"},
 				},
 				indentation = {
 					enable = true,
