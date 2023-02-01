@@ -30,12 +30,13 @@ vim.wo.signcolumn = 'yes'
 
 --Set colorscheme (order is important here)
 vim.o.termguicolors = true
-vim.o.background = 'dark'
+--vim.o.background = 'dark'
 vim.g.onedark_terminal_italics = 2
 
 --vim.cmd [[colorscheme default]]
 --vim.cmd [[hi NormaFloat guibg=NONE ctermbg=LightGrey]]
 vim.cmd.colorscheme('torte')
+
 --vim.api.nvim_set_hl(0, "NormaFloat", {bg="none", ctermbg="none"})
 --vim.api.nvim_set_hl(0, "Normal", {bg="none"})
 

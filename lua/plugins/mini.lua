@@ -1,6 +1,7 @@
 return {
 
-	'windwp/nvim-autopairs',
+	'echasnovski/mini.nvim',
+	version='*',
 	lazy= true, 
 	keys ={
 
@@ -11,6 +12,7 @@ return {
 	
 	},
 	config = function ()
-		require("nvim-autopairs").setup{} 
+		require("mini.pairs").setup()
+	--	require("mini.ai").setup()
 	end
 }

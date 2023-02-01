@@ -5,7 +5,7 @@ return {
 
 		dependencies = {
 			"nvim-treesitter/nvim-treesitter-textobjects",
-			"p00f/nvim-ts-rainbow",
+		--	"p00f/nvim-ts-rainbow",
 			"windwp/nvim-ts-autotag",
 			"nvim-treesitter/nvim-treesitter-context",
 			"nvim-treesitter/playground",
@@ -19,7 +19,7 @@ return {
 				ensure_installed = { "bash", "c", "help", "html", "javascript", "css" },
 				highlight = {
 					enable = true,
-				--	disable = {"html","php"},
+					disable = {"html","php"},
 				},
 				indentation = {
 					enable = true,
@@ -76,11 +76,11 @@ return {
 				matchup={
 				 enable=true
 				},
-				rainbow = {
-				 enable=true,
-					extended_mode=true,
-					max_file_lines= nil
-				},
+		--		rainbow = {
+					-- enable=false,
+				--	extended_mode=true,
+				--	max_file_lines= nil
+			--	},
 				autotag ={
 				 enable =true,
 				}
