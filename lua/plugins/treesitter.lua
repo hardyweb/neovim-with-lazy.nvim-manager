@@ -5,11 +5,7 @@ return {
 
 		dependencies = {
 			"nvim-treesitter/nvim-treesitter-textobjects",
-<<<<<<< Updated upstream
-		--	"p00f/nvim-ts-rainbow",
-=======
 			--"p00f/nvim-ts-rainbow",
->>>>>>> Stashed changes
 			"windwp/nvim-ts-autotag",
 			"nvim-treesitter/nvim-treesitter-context",
 			"nvim-treesitter/playground",
@@ -80,19 +76,12 @@ return {
 				matchup={
 				 enable=true
 				},
-<<<<<<< Updated upstream
+
 		--		rainbow = {
 					-- enable=false,
 				--	extended_mode=true,
 				--	max_file_lines= nil
 			--	},
-=======
-				-- rainbow = {
-				--  enable=true,
-				-- 	extended_mode=true,
-				-- 	max_file_lines= nil
-				-- },
->>>>>>> Stashed changes
 				autotag ={
 				 enable =true,
 				}
