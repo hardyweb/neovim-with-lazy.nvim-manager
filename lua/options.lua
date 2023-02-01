@@ -35,8 +35,8 @@ vim.g.onedark_terminal_italics = 2
 
 --vim.cmd [[colorscheme default]]
 --vim.cmd [[hi NormaFloat guibg=NONE ctermbg=LightGrey]]
-vim.cmd.colorscheme('torte')
+vim.cmd.colorscheme('default')
 
---vim.api.nvim_set_hl(0, "NormaFloat", {bg="none", ctermbg="none"})
---vim.api.nvim_set_hl(0, "Normal", {bg="none"})
+vim.api.nvim_set_hl(0, "NormalFloat", {bg="none", ctermbg="none"})
+vim.api.nvim_set_hl(0, "Normal", {bg="none"})
 

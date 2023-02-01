@@ -19,7 +19,7 @@ vim.opt.rtp:prepend(lazypath)
 vim.g.mapleader = ''
 vim.g.maplocalleader = ' '
 vim.g.user_emmet_leader_key = ','
-vim.cmd [[hi NormaFloat guibg=NONE ctermbg=LightGrey]]
+--vim.cmd [[hi NormalFloat guibg=NONE ctermbg=LightGrey]]
 require("options")
 require("keybinds")
 
