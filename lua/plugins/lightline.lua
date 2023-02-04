@@ -1,7 +1,6 @@
 return {
 
-{ 
-'itchyny/lightline.vim',
+{'itchyny/lightline.vim',
 colorscheme ='powerline',
 active = { 
 	left = {
