@@ -4,4 +4,14 @@
 
 ## Plugin 
 
-
+- Treesitter 
+- Laravel blade 
+- Comment 
+- Emmet 
+- Lightline
+- Lsp 
+- Mini 
+    - Using mini.pair
+- multicursor
+- telescope
+ 
