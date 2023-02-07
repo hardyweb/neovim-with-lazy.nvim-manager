@@ -12,7 +12,13 @@ return {
 	
 	},
 	config = function ()
-		require("mini.pairs").setup()
-	--	require("mini.ai").setup()
+  	require("mini.pairs").setup({
+
+	mappings= {
+		['"'] = {register = {cr=true}},
+		["'"] = {register = {cr=true}},
+		},
+	})
+	require("mini.surround").setup()
 	end
 }
